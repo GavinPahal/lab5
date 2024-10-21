@@ -1,0 +1,15 @@
+/* src/App.css */
+.task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button {
+  margin-left: 10px;
+}

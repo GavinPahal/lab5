@@ -1,0 +1,60 @@
+/* src/App.css */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically in the center */
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  padding: 5px;
+}
+
+button {
+  padding: 5px;
+}
+
+button.save {
+  background-color: #28a745; /* Green color */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button.save:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+button.remove {
+  width: 80px; /* Width for rectangular shape */
+  height: 30px; /* Height for rectangular shape */
+  background-color: transparent; /* No background color */
+  color: black; /* Text color */
+  border: 1px solid #ccc; /* Light border for visibility */
+  border-radius: 0; /* No rounded edges */
+  cursor: pointer;
+  display: flex; /* Flexbox for centering text */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  font-size: 14px; /* Font size for fitting text */
+}
+
+button.remove:hover {
+  border-color: #999; /* Darker border on hover for effect */
+}
+
+.completed span {
+  text-decoration: line-through;
+}

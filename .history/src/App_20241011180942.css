@@ -1,0 +1,57 @@
+/* src/App.css */
+body {
+  font-family: 'Times New Roman', Times, serif; /* Set font to Times New Roman */
+  margin: 0;
+  padding: 20px;
+  display: flex; /* Use Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full height for vertical centering */
+}
+
+.app {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px; /* Rounded corners, remove if not desired */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds a slight shadow for depth */
+}
+
+.task {
+  display: flex; /* Flexbox for task layout */
+  justify-content: space-between; /* Space between task text and button */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 5px; /* Space between tasks */
+}
+
+button.save {
+  background-color: #28a745; /* Green color */
+  color: white;
+  border: 1px solid #ccc; /* Light border for visibility */
+  cursor: pointer;
+  width: 80px; /* Fixed width for consistency */
+  border-radius: 0; /* No rounded edges */
+}
+
+button.save:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+button.remove {
+  width: 80px; /* Fixed width for remove button */
+  height: 30px; /* Fixed height for remove button */
+  background-color: transparent; /* No background color */
+  color: black; /* Text color */
+  border: 1px solid #ccc; /* Light border for visibility */
+  border-radius: 0; /* No rounded edges */
+  cursor: pointer;
+  margin-left: 20px; /* Space between task and remove button */
+}
+
+button.remove:hover {
+  background-color: #f8d7da; /* Optional: background color on hover */
+}
+
+.completed span {
+  text-decoration: line-through; /* Style for completed tasks */
+  color: gray; /* Optional: change text color for completed tasks */
+}

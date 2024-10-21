@@ -1,0 +1,17 @@
+/* Example CSS for Task Component */
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px; /* Space between tasks */
+}
+
+button.remove {
+  width: 80px; /* Width for rectangular shape */
+  height: 30px; /* Height for rectangular shape */
+  background-color: transparent; /* No background color */
+  color: black; /* Text color */
+  border: 1px solid #ccc; /* Light border for visibility */
+  border-radius: 0; /* No rounded edges */
+  cursor: pointer;
+}

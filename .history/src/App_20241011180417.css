@@ -1,0 +1,23 @@
+/* src/App.css */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex; /* Use Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full height for vertical centering */
+}
+
+.app {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px; /* Keep this if you want rounded corners */
+}
+
+button.save {
+  background-color: #28a745; /* Green color */
+  color: white;
+  border: none;
+  cursor: pointer;
+}

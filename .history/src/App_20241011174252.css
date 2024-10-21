@@ -1,0 +1,44 @@
+/* src/App.css */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: calc(100% - 90px); /* Adjust width to accommodate the button */
+  padding: 5px;
+  margin-right: 5px; /* Add space between input and button */
+}
+
+button {
+  padding: 5px;
+}
+
+button.save {
+  background-color: #28a745; /* Green color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 80px; /* Fixed width for the button */
+}
+
+button.save:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.completed span {
+  text-decoration: line-through;
+}
